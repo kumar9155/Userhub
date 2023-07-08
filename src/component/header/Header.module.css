@@ -1,0 +1,34 @@
+.container {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  /* border: 2px solid red; */
+  background-color: #19073b;
+}
+.logo {
+  width: 200px;
+  height: 100%;
+}
+.logo > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.header_rightContent {
+  display: flex;
+  /* border: 2px solid green; */
+  align-items: center;
+  justify-content: space-around;
+}
+.header_content > a {
+  text-decoration: none;
+}
+.header_content {
+  display: flex;
+}
+.header_content > a > li {
+  list-style: none;
+  padding: 15px;
+  color: white;
+}
